@@ -23,9 +23,9 @@ public class GamePannel extends JPanel implements Runnable {
     Player j = new Player(this,keyH);
     
     // posicion del jugadro por default
-    int playerX = 100;
-    int playerY = 100;
-    int playerSpeed = 4;
+    //int playerX = 100;
+    //int playerY = 100;
+    //int playerSpeed = 4;
     
     public GamePannel() {
         this.setPreferredSize(new Dimension(screenWidth, screenHeight));
